@@ -1,0 +1,99 @@
+nav {
+  display: flex;
+}
+.title {
+  width: 300px;
+  font-size: 3rem;
+  display: flex;
+  align-items: center;
+}
+/* navigation bloc */
+.navigation_bloc {
+  width: 100%;
+  font-size: 3rem;
+  list-style-type: none;
+  color: white;
+  padding: 30px;
+  background-color: rgb(37, 93, 116);
+  border-radius: 20px 0px 0px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.summary {
+  padding: 10px 30px 10px 30px;
+  border-radius: 50px;
+  transition: 0.5s;
+}
+.summary:hover {
+  background-color: skyblue;
+  color: black;
+  border-radius: 25px;
+}
+.who {
+  padding: 10px 30px 10px 30px;
+  border-radius: 50px;
+  transition: 0.5s;
+}
+.who:hover {
+  background-color: skyblue;
+  color: black;
+  border-radius: 25px;
+}
+.contact {
+  padding: 10px 30px 10px 30px;
+  border-radius: 50px;
+  transition: 0.5s;
+}
+.contact:hover {
+  background-color: skyblue;
+  color: black;
+  border-radius: 25px;
+}
+.core_page {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 100%;
+}
+.article {
+  border-radius: 20px;
+  margin: 20px;
+  background-color: skyblue;
+  box-shadow: 8px 8px 10px 0 rgba(0, 0, 0, 0.5);
+  width: 500px;
+  height: 500px;
+  transition: 1s;
+}
+.article:hover {
+  background-color: rgba(135, 207, 235, 0.507);
+}
+
+footer {
+  margin-top: 50px;
+  border-radius: 20px 20px 0px 0px;
+  width: 100%;
+  height: 150px;
+  background-color: rgba(57, 112, 134, 0);
+}
+
+.footer_page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: skyblue;
+  border-radius: 100px 100px 100px 100px;
+  width: 100px;
+  height: 150px;
+  font-size: 0.1rem;
+  transition: 1s;
+}
+.footer_page:hover {
+  border-radius: 100px 100px 0px 0px;
+  padding-left: 50px;
+  width: 95%;
+  height: 100%;
+  font-size: 4rem;
+}
